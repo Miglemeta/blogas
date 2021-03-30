@@ -1,12 +1,12 @@
 import React from "react"
 import './App.css';
 import {Link} from 'react-router-dom';
-
+import Logo from './logo.png'
 
 function Nav() {
   return (
     <nav>
-    <h3>Logo</h3>
+    <img className="logo" src={Logo} alt="a logo"/>
     <ul className="nav-Links">
     <Link to="/home">
     <li> Home</li>
