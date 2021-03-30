@@ -6,7 +6,7 @@ import Logo from './logo.png'
 function Nav() {
   return (
     <nav>
-    <img className="logo" src={Logo} alt="a logo"/>
+    <img className="logo" src={Logo} alt="a logo of crafty inspiration"/>
     <ul className="nav-Links">
     <Link to="/home">
     <li> Home</li>
