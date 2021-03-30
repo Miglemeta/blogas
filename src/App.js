@@ -1,8 +1,9 @@
 import React from "react";
 import './App.css';
-import Nav from './Nav';
-import About from './About';
+import Nav from './components/Nav';
+import About from './components/About';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -19,9 +20,5 @@ function App() {
   );
 }
 
-const Home = () => (
-  <div>
-  <h1>Home Page </h1>
-  </div>
-)
+
 export default App;
