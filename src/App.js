@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./Home";
 
 function App() {
   return (
@@ -18,10 +19,4 @@ function App() {
     </Router>
   );
 }
-
-const Home = () => (
-  <div>
-  <h1>Home Page </h1>
-  </div>
-)
 export default App;
