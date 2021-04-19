@@ -5,7 +5,13 @@ import posts from "./Data/posts";
 
 function createCard(post) {
   return (
-    <Card key={post.id} title={post.title} img={post.imgURL} text={post.text} />
+    <Card
+      key={post.id}
+      title={post.title}
+      imgSource={post.imgSource}
+      text={post.text}
+      alt={post.alt}
+    />
   );
 }
 
