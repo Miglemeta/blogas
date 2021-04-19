@@ -25,3 +25,22 @@ a, h3 {
   max-height: 100px;
   max-width: 100px;
 }
+.card {
+  background-color:#c1ebc1;
+  margin: 50px auto;
+
+  height:400px;
+  width:80%;
+  box-shadow:0 2px rgb(73, 68, 68);
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.right-column{
+  padding:10px;
+}
+.thumbnail {
+width: 400px;
+height: 100%;
+object-fit: cover;
+}
