@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
-import Nav from "./Nav";
-import About from "./About";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Home";
+import './App.css';
+import Nav from './components/Nav';
+import About from './components/About';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./components/Home";
 
 function App() {
   return (

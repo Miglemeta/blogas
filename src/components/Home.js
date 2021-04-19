@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 import Card from "./Card";
-import posts from "./Data/posts";
+import posts from "../Data/posts";
 
 function createCard(post) {
   return (
