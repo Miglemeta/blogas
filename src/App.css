@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,7 +18,8 @@ nav{
   list-style: none;
 }
 
-a, h3 {
+a,
+h3 {
   color: darkslateblue;
 }
 .logo {
@@ -26,21 +27,36 @@ a, h3 {
   max-width: 100px;
 }
 .card {
-  background-color:#c1ebc1;
+  background-color: #c1ebc1;
   margin: 50px auto;
 
-  height:400px;
-  width:80%;
-  box-shadow:0 2px rgb(73, 68, 68);
+  height: 400px;
+  width: 80%;
+  box-shadow: 0 2px rgb(73, 68, 68);
   text-align: left;
   display: flex;
   flex-direction: row;
 }
-.right-column{
-  padding:10px;
+.right-column {
+  padding: 10px;
 }
 .thumbnail {
-width: 400px;
-height: 100%;
-object-fit: cover;
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+h1 {
+  text-align: center;
+  font-family: Bush Script MT;
+}
+h2 {
+  text-align: center;
+  font-family: Bush Script MT;
+}
+.about {
+  background: transparent;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
