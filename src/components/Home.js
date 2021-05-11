@@ -7,9 +7,10 @@ function createCard(post) {
   return (
     <Card
       key={post.id}
+      posturl={post.posturl}
       title={post.title}
       imgSource={post.imgSource}
-      text={post.text}
+      text={post.introtext}
       alt={post.alt}
     />
   );
