@@ -11,7 +11,7 @@ function Post() {
   }
 
   return (
-    <div className="about">
+    <div className="post">
       <img className="thumbnail" src={post.imgSource} alt={post.alt} />
       <h1>{post.title} </h1>
       <div>{post.fulltext}</div>

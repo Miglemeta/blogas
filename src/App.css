@@ -1,13 +1,24 @@
+*:link {
+  text-decoration: none;
+}
 .App {
   text-align: center;
+}
+body {
+  background-color: rgb(100, 80, 80);
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: lemonchiffon;
-  color: blue;
+  background: rgb(124, 122, 122);
+  color: rgb(116, 106, 63);
+}
+li {
+  font-size: 25px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .nav-Links {
@@ -20,11 +31,17 @@ nav {
 
 a,
 h3 {
-  color: darkslateblue;
+  color: rgb(46, 44, 62);
 }
 .logo {
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 200px;
+  max-width: 200px;
+}
+.circleimg {
+  border-radius: 50%;
+  border: 7px solid rgb(196, 128, 128);
+  width: 500px;
+  height: auto;
 }
 h1 {
   text-align: center;
@@ -34,20 +51,29 @@ h2 {
   text-align: center;
   font-family: Bush Script MT;
 }
-.about {
+.about,
+.post {
   background: transparent;
-  margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
+}
+.about {
+  margin-top: 300px;
+}
+.post {
+  margin-top: 50px;
+  box-shadow: 0px 20px 38px 13px #403838;
+  padding: 50px;
 }
 .card {
-  background-color: #c1ebc1;
+  background-color: #bba49d;
   margin: 50px auto;
 
   height: 400px;
   width: 80%;
-  box-shadow: 0 2px rgb(73, 68, 68);
+  max-width: 1500px;
+  box-shadow: 2px 2px 5px 5px rgb(73, 68, 68);
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -62,6 +88,9 @@ h2 {
   width: 400px;
   height: 100%;
   object-fit: cover;
+}
+.post .thumbnail {
+  width: 800px;
 }
 @media (max-width: 920px) {
   .card {
