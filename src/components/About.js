@@ -7,7 +7,7 @@ function About() {
       <img
         className="circleimg"
         src="/pictures/IMGABOUT.jpg"
-        alt="picture of blog author"
+        alt="blog author - a dashing young lady"
       ></img>
       <h1>About Me </h1>
       <h2>
