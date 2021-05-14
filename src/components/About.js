@@ -4,7 +4,11 @@ import "../App.css";
 function About() {
   return (
     <div className="about">
-      <img className="circleimg" src="/pictures/IMGABOUT.jpg"></img>
+      <img
+        className="circleimg"
+        src="/pictures/IMGABOUT.jpg"
+        alt="blog author - a dashing young lady"
+      ></img>
       <h1>About Me </h1>
       <h2>
         My parents both were artists, probably that's where I got my love for
